@@ -4,6 +4,14 @@
 
 
 
-chmod +x run.sh
+``
 
+```
+chmod +x run.sh
+```
+
+
+
+```
 ./run.sh "namefile"
+```
