@@ -10,8 +10,6 @@ chmod +x run.sh
 ./run.sh "namefile"
 ```
 
-
-
 example :
 
 ```
@@ -31,4 +29,11 @@ sugar: 0
 ----------------------------------------
 Đang xóa các file .class...
 Hoàn thành!
+```
+
+
+must be install java before run ./run.sh
+
+```
+java --version 
 ```
