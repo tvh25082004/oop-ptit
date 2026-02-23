@@ -31,9 +31,15 @@ sugar: 0
 Hoàn thành!
 ```
 
-
 must be install java before run ./run.sh
 
 ```
 java --version 
+```
+
+```
+❯ java --version
+openjdk 17.0.18 2026-01-20
+OpenJDK Runtime Environment Homebrew (build 17.0.18+0)
+OpenJDK 64-Bit Server VM Homebrew (build 17.0.18+0, mixed mode, sharing)
 ```
