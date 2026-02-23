@@ -1,4 +1,4 @@
-# oop-ptit
+OOP-PTIT
 
 * [ ] Use run code :
 
