@@ -11,15 +11,29 @@ class Author {
         setGender(gender);
     }
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public String getName() {
+        return name;
+    }
 
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public char getGender() { return gender; }
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
     public void setGender(char gender) {
-        if (gender == 'f' || gender == 'm') this.gender = gender;
+        if (gender == 'f' || gender == 'm')
+            this.gender = gender;
     }
 
     @Override
@@ -41,17 +55,37 @@ class Book {
         this.qty = qty;
     }
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public String getName() {
+        return name;
+    }
 
-    public Author getAuthor() { return author; }
-    public void setAuthor(Author author) { this.author = author; }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public double getPrice() { return price; }
-    public void setPrice(double price) { this.price = price; }
+    public Author getAuthor() {
+        return author;
+    }
 
-    public int getQty() { return qty; }
-    public void setQty(int qty) { this.qty = qty; }
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQty() {
+        return qty;
+    }
+
+    public void setQty(int qty) {
+        this.qty = qty;
+    }
 
     @Override
     public String toString() {
@@ -59,7 +93,7 @@ class Book {
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = Integer.parseInt(sc.nextLine().trim());
@@ -84,6 +118,7 @@ public class Main {
         }
 
         // Đọc "End"
-        if (sc.hasNextLine()) sc.nextLine();
+        if (sc.hasNextLine())
+            sc.nextLine();
     }
 }
