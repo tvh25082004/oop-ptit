@@ -12,7 +12,7 @@ abstract class LivingThing {
     public abstract void eat();
 }
 
-// Abstract con
+// Abstract con 
 abstract class Person extends LivingThing {
     private int age;
 
